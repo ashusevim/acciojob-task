@@ -16,7 +16,7 @@
 
 .sidebar{
     width: 100px;
-    border: 1px solid #ddd;
+    border: 1px solid;
     padding: 1rem;
 }
 
@@ -43,8 +43,8 @@
 }
 
 .card{
-    width: calc(33.333% - 0.7rem);
-    border: 1px solid #ddd;
+    width: 330px;
+    border: 1px solid;
     padding: 1rem;
     box-sizing: border-box;
 }
@@ -55,7 +55,7 @@
 }
 
 .footer{
-    border: 2px solid #ddd;
+    border: 1px solid;
     margin: 2px 1px;
     height: 10vh;
     font-size: 1rem;
