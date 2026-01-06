@@ -1,0 +1,63 @@
+.main{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.header h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.layout{
+    display: flex;
+    gap: 2rem;
+}
+
+.sidebar{
+    width: 100px;
+    border: 1px solid #ddd;
+    padding: 1rem;
+}
+
+.sidebar ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar ul li {
+    padding: 0.7rem 0;
+    cursor: pointer;
+}
+
+.sidebar ul li:hover{
+    text-decoration: underline;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    flex: 2;
+}
+
+.card{
+    width: calc(33.333% - 0.7rem);
+    border: 1px solid #ddd;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.card img{
+    width: 100%;
+    height: auto;
+}
+
+.footer{
+    border: 2px solid #ddd;
+    margin: 2px 1px;
+    height: 10vh;
+    font-size: 1rem;
+    text-align: center;
+}
